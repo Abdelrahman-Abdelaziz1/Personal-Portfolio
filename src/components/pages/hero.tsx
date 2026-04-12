@@ -1,6 +1,7 @@
 import GithubIcon from "../../../public/github.svg";
 import LinkedinIcon from "../../../public/linkedin.svg";
-import { Mail } from "lucide-react";
+import { Mail, Contact2 } from "lucide-react";
+import { TbFileCv } from "react-icons/tb";
 import Link from "next/link";
 import Image from "next/image";
 import profilePhoto from "../../../public/headshot.jpeg";
@@ -63,6 +64,14 @@ export default function Hero() {
               aria-label="Send me an email"
             >
               <Mail width={24} height={24} />
+            </Link>
+
+            <Link href="/cv">
+              <TbFileCv
+                size={23} // Increased from default 20/24
+                strokeWidth={2.5} // Makes the lines thicker to match the brand logos
+                className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+              />
             </Link>
           </div>
           <h1 className="text-7xl md:pt-4 lg:pt-8 font-serif text-center md:text-left  text-primary">

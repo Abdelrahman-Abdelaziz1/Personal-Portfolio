@@ -1,26 +1,12 @@
-{/*import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  
-};
-
-export default nextConfig;
-
-*/}
-
-/*abdelrahman*/
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    // Warning: This allows production builds to successfully complete 
-    // even if your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
+  /* config options here */
   typescript: {
-    // If you have "Unexpected any" errors, you might need this too
-    ignoreBuildErrors: true, 
+    ignoreBuildErrors: true,
   },
+  // If the 'eslint' key continues to cause an error, 
+  // remove it and handle linting via your CI/CD or terminal
 };
 
 export default nextConfig;

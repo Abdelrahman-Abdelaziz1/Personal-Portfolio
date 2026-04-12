@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "./ui/themeToggle";
 import { Menu } from "lucide-react";
+import { FileText } from "lucide-react"; // Import a nice icon
 import {
   DropdownMenu,
   DropdownMenuContent,
