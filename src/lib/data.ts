@@ -30,7 +30,7 @@ export const projects: Project[] = [
         technologies: ["Next.js", "React", "TypeScript", "Shadcn UI", "Tailwind CSS"],
         image: "/porto.png",
         live: "#",
-        github: "https://github.com/Abdelrahman-Abdelaziz1/portfolio-website",
+        github: "https://github.com/Abdelrahman-Abdelaziz1/Personal-portfolio",
     },
    
  
