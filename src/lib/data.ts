@@ -32,7 +32,25 @@ export const projects: Project[] = [
         live: "#",
         github: "https://github.com/Abdelrahman-Abdelaziz1/Personal-portfolio",
     },
-   
+    {
+      id: 3,
+      title: "NexusPlay",
+      description: "A dynamic game discovery platform built with React.js, integrating the RAWG API to fetch and display popular games. Features include search functionality, genre-based filtering, infinite scrolling, and a responsive design achieved with Tailwind CSS and Chakra UI. React Query and Axios were employed for efficient data fetching.",
+      technologies: ["Vite", "React", "TypeScript", "ChakraUI", "Tailwind CSS"],
+      image: "/nexus.jpg",
+      live: "https://nexus-play-six.vercel.app/",
+      github: "https://github.com/Abdelrahman-Abdelaziz1/NexusPlay",
+  },
+  {
+    id: 4,
+    title: "Aura",
+    description: "AURA is a modern music discovery interface with a sleek “Deep Space” design. It features smooth animations, glassmorphism effects, and a 3D carousel synced with real-time audio playback, showcasing advanced CSS and JavaScript integration.",
+    technologies: ["HTML", "CSS", "Swiper"],
+    image: "/Aura.png",
+    live: "https://aura-tau-dun.vercel.app/",
+    github: "https://github.com/Abdelrahman-Abdelaziz1/AURA",
+},
+
  
 ];
 

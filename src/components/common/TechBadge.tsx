@@ -31,6 +31,8 @@ import {
   IconBrandDocker,
   IconBrandDjango,
   IconBrandStripe,
+  IconBrandVite,
+  IconSlideshow,
 } from "@tabler/icons-react";
 
 import { SiWhatsapp } from "react-icons/si";
@@ -54,6 +56,8 @@ const getTechIcon = (tech: string): JSX.Element | null => {
     tailwindcss: (
       <IconBrandTailwind size={14} className="inline mr-1.5 text-white" />
     ),
+    swiper: <IconSlideshow size={14} className="inline mr-1.5 text-white" />,
+    vite: <IconBrandVite size={14} className="inline mr-1.5 text-white" />,
     supabase: (
       <IconBrandSupabase size={14} className="inline mr-1.5 text-white" />
     ),
@@ -77,7 +81,7 @@ const getTechIcon = (tech: string): JSX.Element | null => {
     docker: <IconBrandDocker size={14} className="inline mr-1.5 text-white" />,
     cpp: <IconBrandCpp size={14} className="inline mr-1.5 text-white" />,
     git: <IconGitBranch size={14} className="inline mr-1.5 text-white" />,
-    fastapi: <IconBolt size={14} className="inline mr-1.5 text-white" />, // Removed text-emerald-500
+    ChakraUI: <IconBolt size={14} className="inline mr-1.5 text-white" />, // Removed text-emerald-500
     tanstackquery: (
       <IconSearch size={14} className="inline mr-1.5 text-white" />
     ), // Removed text-red-500
