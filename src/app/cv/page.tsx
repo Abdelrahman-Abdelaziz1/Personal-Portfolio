@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   ArrowLeft,
@@ -13,7 +12,7 @@ import Link from "next/link";
 
 export default function CVPage() {
   // Path to your PDF in the public folder
-  const pdfUrl = "/cv%20datascience.pdf";
+  const pdfUrl = "/cv-Web-Developer.pdf";
 
   return (
     <div className="min-h-screen bg-background flex flex-col items-center pt-24 pb-12 px-4 md:px-8">
@@ -30,7 +29,7 @@ export default function CVPage() {
           <div className="flex items-center gap-2 px-2">
             <FileText className="h-5 w-5 text-primary" />
             <span className="font-medium text-sm hidden sm:inline-block">
-              Abdelrahman_CV.pdf
+              Abdelrahman Abdelaziz_CV.pdf
             </span>
           </div>
         </div>
