@@ -11,7 +11,7 @@ export type Project = {
     live: string;
     github: string;
 };
-
+//"projects"
 // Define and export your projects array
 export const projects: Project[] = [
     {
