@@ -20,7 +20,7 @@ export const projects: Project[] = [
         description: "DreamCanvas is a full-stack AI-powered platform that allows users to generate high-quality images, train custom AI models, and manage subscriptions using Stripe.",
         technologies: ["Next.js", "React", "ShadCN UI", "Supabase", "Tailwind CSS", "Stripe"],
         image: "/project 1.png",
-        live: "https://Dream-Canvas.vercel.app",
+        live: "https://github.com/Abdelrahman-Abdelaziz1/Dream-Canvas",
         github: "https://github.com/Abdelrahman-Abdelaziz1/Dream-Canvas",
     },
     {
